@@ -1,0 +1,25 @@
+@mixin tablet {
+    @media (max-width:992px) {
+        @content
+    
+    }
+};
+@mixin mobile {
+    @media (max-width:767px) {
+        @content
+    
+    }
+}
+
+
+.hide-text{
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.material-icons{
+    display: inline;
+    vertical-align: middle;
+    line-height: 1px;
+}

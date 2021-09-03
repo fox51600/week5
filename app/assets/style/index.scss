@@ -1,0 +1,86 @@
+
+nav{
+    width: 296px;
+    height: 100vh;
+    position:fixed;
+}
+
+
+.menu{
+    
+    .logo{
+        a{
+            line-height: 2.5;
+            display: block;
+            background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg) no-repeat center/cover;
+        }
+    }
+    ul{
+      
+        a{
+            color: #212529;
+            &:hover{
+                color: #146c43;
+            }
+            
+            }
+    }
+}
+
+.main{
+    margin-left: 296px;
+    
+    .notify{
+
+        a{
+            color: #000;
+            &:hover{
+                color:  #146c43;
+                
+            }
+        }
+     
+    }
+
+
+}
+
+.user{
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}
+
+
+.table{
+
+  
+    thead{
+        border-bottom: 1px solid black;
+    }
+
+
+
+    .material-icons{
+
+        color: #000;
+
+        &:hover{
+            color:  #146c43;
+           
+            }
+
+
+    }
+
+    
+    
+}
+
+
+.page-link:hover{
+    background-color: #146c43;
+    color: #FFF;
+}
