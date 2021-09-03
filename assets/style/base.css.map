@@ -1,0 +1,1 @@
+{"version":3,"sources":["base.scss"],"names":[],"mappings":"AACA;EACI,cAAc;EACd,qBAAqB,EAAA;;AAIzB;EACI,gBAAe,EAAA;;AAGnB;EACI,eAAc;EACd,YAAW,EAAA","file":"base.css","sourcesContent":["\r\na{\r\n    display: block;\r\n    text-decoration: none;\r\n  \r\n}\r\n    \r\nul, ol{\r\n    list-style:none;\r\n}\r\n    \r\nimg{\r\n    max-width:100%;\r\n    height:auto;\r\n}"]}

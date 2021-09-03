@@ -1,0 +1,11 @@
+.hide-text {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap; }
+
+.material-icons {
+  display: inline;
+  vertical-align: middle;
+  line-height: 1px; }
+
+/*# sourceMappingURL=mixin.css.map */

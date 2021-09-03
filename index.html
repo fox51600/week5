@@ -6,24 +6,289 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>首頁</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
+
 </head>
 
 <body>
-  <header class="header">
-    這是 header
-  </header>
+
+  <nav class="d-flex flex-column bg-light justify-content-between">
+    <div class="menu">
+      <h1 class="logo">
+        <a class="hide-text m-5 fs-6" href="index.html">ANSWER</a>
+      </h1>
+      <ul class="fw-bold">
+        <li><a class="mx-5 py-2" href="#">
+          <span class="material-icons me-3">
+            insert_chart
+            </span>Dashboard</a></li>
+        <li><a class="mx-5 py-2" href="#">
+          <span class="material-icons me-3">
+            question_answer
+            </span>Question</a></li>
+        <li><a class="mx-5 py-2" href="#">
+          <span class="material-icons me-3">
+            assignment
+            </span>assignment</a></li>
+        <li><a class="mx-5 py-2" href="#">
+          <span class="material-icons me-3">
+            video_library
+            </span>Course</a></li>
+        <li><a class="mx-5 py-2" href="#">
+          <span class="material-icons me-3">
+            people
+            </span>Admin</a></li>
+        <li><a class="mx-5 py-2" href="#">
+          <span class="material-icons me-3">
+            settings
+            </span>Settings</a></li>
+       
+     
+      </u>
+  
+    </div>
+  
+  
+    <div class="user d-flex px-5 align-items-center">
+      <div class="user-head">
+        <img  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg" alt="">
+      </div>
+      <div class="user-info ms-3 py-2 ">
+        <p class="fw-bold mb-1">Andy Chen</p>
+        <p class=" text-muted ">andy0401@mail.com</p>
+  
+      </div>
+      
+    </div>
+  
+    
+  
+  </nav>
+
 
   
-<h1>
-  這是一段話
-</h1>
 
-<div class="box"></div>
 
-  <footer class="footer">
-    footer
-  </footer>
+
+<div class="main p-5 ">
+  <header class="d-flex justify-content-between ">
+
+    <div class="title d-flex align-items-center">
+      <h2 class="fs-4 fw-bold me-4">Admin</h2>
+      <a class="text-dark fw-bold" href="http://">
+        <span class="material-icons text-success">add</span>Add New Admin
+
+      </a>
+    </div>
+
+    <ul class="notify d-flex">
+      <li><a class="px-2 " href="#"><span class="material-icons">search</span></a></li>
+      <li><a class="px-2 " href="#"><span class="material-icons">notifications_active</span></a></li>
+    </ul>
+
+
+  </header>
+
+
+  <table class="table table-hover mt-5">
+    <thead>
+      <tr>
+        <th scope="col">ID<span class="material-icons text-success">
+            arrow_downward
+          </span></th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Verifide</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-bottom  ">
+        <th scope="row">#1</th>
+        <td>Emir Wicks</td>
+        <td>emir.wicks@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#2</th>
+        <td>Zaina Goldsmith</td>
+        <td>zaina.goldsmith@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#3</th>
+        <td>Mahima Lopez</td>
+        <td>mahima.lopez@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#4</th>
+        <td>Pharrell Murray</td>
+        <td>pharrell.murray@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#5</th>
+        <td>Annika Mcbride</td>
+        <td>annika.mcbride@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#6</th>
+        <td>Fatimah Clark</td>
+        <td>fatimah.clark@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#7</th>
+        <td>Klaudia Rhodes</td>
+        <td>klaudia.rhodes@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#8</th>
+        <td>Tillie Lucero</td>
+        <td>tillie.lucero@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#9</th>
+        <td>Sabrina Stephenson</td>
+        <td>sabrina.stephenson@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+      <tr class="border-bottom p-5">
+        <th scope="row">#10</th>
+        <td>Annie Smith</td>
+        <td>annie.smith@mail.com</td>
+        <td>Yes</td>
+        <td class="d-flex">
+          <a href="#"><span class="material-icons  me-4">
+              visibility
+            </span>
+          </a>
+          <a href="#"><span class="material-icons ">
+              edit
+            </span></a>
+        </td>
+      </tr>
+
+    </tbody>
+
+
+
+
+
+  </table>
+
+  <div class="nav justify-content-end align-items-center mt-5">
+
+    <ul class="d-flex fs-4 ">
+      <li class="border border-end-0 border-success "><a class="page-link text-success px-2 py-1" href="#"><span
+            class="material-icons-outlined">
+            chevron_left
+          </span></a></li>
+      <li class="border border-end-0 border-success bg-success  "><a class="page-link text-white px-2 py-1"
+          href="#">1</a></li>
+      <li class="border border-end-0 border-success "><a class="page-link text-success px-2 py-1" href="#">2</a></li>
+      <li class="border border-end-0 border-success "><a class="page-link text-success px-2 py-1" href="#">3</a></li>
+      <li class="border  border-success "><a class="page-link text-success px-2 py-1" href="#"><span
+            class="material-icons-outlined">
+            chevron_right
+          </span></a></li>
+
+    </ul>
+
+
+  </div>
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
